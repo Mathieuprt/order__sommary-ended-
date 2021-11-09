@@ -1,0 +1,15 @@
+.button{
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: .3s all ease-in-out;
+}
+
+.button_valid{
+    color: $white;
+    background-color: $purple;
+    &:hover{
+        background-color: $bgButton;
+        color: $white;
+    }
+}
